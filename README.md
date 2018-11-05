@@ -1,3 +1,5 @@
+AndroidX supported
+
 
 sticky-headers-recyclerview
 ===========================
