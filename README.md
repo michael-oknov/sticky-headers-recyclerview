@@ -1,5 +1,3 @@
-This project is no longer being maintained
-==========================================
 
 sticky-headers-recyclerview
 ===========================
@@ -12,16 +10,18 @@ a library that many of us relied on for sticky headers in our listviews.
 
 Here is a quick video of it in action (click to see the full video):
 
-[![animated gif demo](http://i.imgur.com/I0ztoPw.gif)](https://www.youtube.com/watch?v=zluBwbf3aew)
-
-[![animated gif demo](http://i.imgur.com/b5pJjtL.gif)](https://www.youtube.com/watch?v=zluBwbf3aew)
 
 Download
 --------
 
-Current version: [![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.timehop.stickyheadersrecyclerview/library/badge.svg)](https://maven-badges.herokuapp.com/maven-central/com.timehop.stickyheadersrecyclerview/library)
-
-    compile 'com.timehop.stickyheadersrecyclerview:library:[latest.version.number]@aar'
+Add Jitpack maven repo to your top-level build.gradle
+allprojects {
+  repositories {
+    maven { url "https://jitpack.io" }
+  }
+}
+    
+    implementation 'com.github.michael-oknov:sticky-headers-recyclerview:0.5'
 
 
 Usage
