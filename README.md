@@ -15,12 +15,15 @@ Download
 --------
 
 Add Jitpack maven repo to your top-level build.gradle
+```
 allprojects {
   repositories {
     maven { url "https://jitpack.io" }
   }
 }
-    
+```
+And you will be able to use it in your modules:    
+
     implementation 'com.github.michael-oknov:sticky-headers-recyclerview:0.5'
 
 
@@ -116,6 +119,8 @@ Known Issues
 
 Version History
 ---------------
+0.5 (11/05/2018) - Migrated to AndroidX
+
 0.4.3 (12/24/2015) - Change minSDK to 11, fix issue with header bounds caching
 
 0.4.2 (8/21/2015) - Add support for reverse `ReverseLayout` in `LinearLayoutManager` by [AntonPukhonin](https://github.com/AntonPukhonin)
